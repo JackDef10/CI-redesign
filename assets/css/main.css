@@ -2790,6 +2790,10 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 			ul.icons li .icon.alt {
 				margin: 0;
 			}
+			ul.icons li img {
+				width: 3em;
+				
+			}
 
 		}
 
@@ -3644,6 +3648,14 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 		padding-top:5em;
 		z-index: 200;
 		position: relative;
+	}
+
+	@media screen and (max-width: 1280px){
+		#man-sitting{
+			width: 9em;
+			top:-6em;
+
+		}
 	}
 
 	@media screen and (max-width: 980px){
@@ -4869,7 +4881,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 			}
 
 			#header .cultural-logo-1{
-				width:6em;
+				width:5.5em;
 				
 			}
 	}
