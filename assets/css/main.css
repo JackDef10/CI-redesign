@@ -321,6 +321,13 @@ input, select, textarea {
 		position: relative;
 	}
 
+	@media screen and (max-width: 1200px){
+		header.major h1{
+			font-size: 2em;
+
+		}
+	}
+
 	#main-tagline{
 		position: relative;
 		text-align: left;
